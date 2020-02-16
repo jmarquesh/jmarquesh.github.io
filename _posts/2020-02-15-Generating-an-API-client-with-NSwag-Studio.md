@@ -2,7 +2,6 @@
 layout: post
 title: Generating an API client with NSwag Studio
 published: true
-excerpt: If you have to consume an API with many endpoints, a big amount of request parameters, and complex responses, you will save a lot of time by generating the code instead of writing it yourself.
 ---
 
 ![Manhattan]({{site.baseurl}}/images/Manhattan.jpg)
