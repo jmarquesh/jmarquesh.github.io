@@ -4,7 +4,7 @@ title: Generating an API client with NSwag Studio
 published: true
 ---
 
-![Manhattan]({{site.baseurl}}/_posts/Manhattan.jpg)
+![Manhattan]({{site.baseurl}}/{{site.baseurl}}/images/Manhattan.jpg)
 
 
 
