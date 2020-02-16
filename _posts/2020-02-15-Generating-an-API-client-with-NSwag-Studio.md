@@ -4,7 +4,8 @@ title: Generating an API client with NSwag Studio
 published: true
 ---
 
-![Manhattan Jan. 2019]({{site.baseurl}}/_posts/New York buildings.jpg)
+![Manhattan]({{site.baseurl}}/_posts/Manhattan.jpg)
+
 
 
 ## Sumary:
