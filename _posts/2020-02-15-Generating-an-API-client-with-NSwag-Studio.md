@@ -60,19 +60,19 @@ There are a lot of settings that you can change to modify the generated code. Cl
 
 These are some of the settings that I have modified:
 
--**Generate contracts output:** Check this to get the contracts generated in a separated file.
+- **Generate contracts output:** Check this to get the contracts generated in a separated file.
 
--**Contracts namespace:-- Use this to specify the namespace that your contracts should use.
+- **Contracts namespace:-- Use this to specify the namespace that your contracts should use.
 
--**Use the base URL for the request:** This is checked by default, but we unchecked it because we want to set the base URL in the Startup file of our app (more on that below)
+- **Use the base URL for the request:** This is checked by default, but we unchecked it because we want to set the base URL in the Startup file of our app (more on that below)
 
--**Generate interfaces for Client classes:** We checked this because we want to use dependency injection to supply the client to whatever code will be using it (the code that use the client will not have a direct dependency on the client).
+- **Generate interfaces for Client classes:** We checked this because we want to use dependency injection to supply the client to whatever code will be using it (the code that use the client will not have a direct dependency on the client).
 
--**Generic Array Type:** We changed this from the default `System.Collections.Generic.ICollection` to `System.Collections.Generic.IList` because we need the items in our response lists to have index-based access.
+- **Generic Array Type:** We changed this from the default `System.Collections.Generic.ICollection` to `System.Collections.Generic.IList` because we need the items in our response lists to have index-based access.
 
--**Date Type and Date Time Type:** We use `System.DateTime` instead of the default `System.DateTimeOffset`.
+- **Date Type and Date Time Type:** We use `System.DateTime` instead of the default `System.DateTimeOffset`.
 
--**Output file path (empty: no file output)** and **Contracts output file path (empty: single output file output):** Use this to specify the path were the files with the generated code should be saved.
+- **Output file path (empty: no file output)** and **Contracts output file path (empty: single output file output):** Use this to specify the path were the files with the generated code should be saved.
 
 ## Other ways to extend the generated code:
 
