@@ -34,21 +34,21 @@ To quickly generate some code:
 
 1- Select the runtime that you want to use:
 
-![Select runtime]({{site.baseurl}}/images/2020-02-15-Generating-an-API-client-with-NSwag-Studio/SelectRuntime.png)
+   ![Select runtime]({{site.baseurl}}/images/2020-02-15-Generating-an-API-client-with-NSwag-Studio/SelectRuntime.png)
 
 2- Paste the URL of the specification for the API that you will consume and click the button **Create local Copy**:
 
-![Specification URL]({{site.baseurl}}/images/2020-02-15-Generating-an-API-client-with-NSwag-Studio/SpecificationUrl.png)
+   ![Specification URL]({{site.baseurl}}/images/2020-02-15-Generating-an-API-client-with-NSwag-Studio/SpecificationUrl.png)
 
 3- Select the type of code that you want to generate:
 
-![Select output]({{site.baseurl}}/images/2020-02-15-Generating-an-API-client-with-NSwag-Studio/SelectOutput.png)
+   ![Select output]({{site.baseurl}}/images/2020-02-15-Generating-an-API-client-with-NSwag-Studio/SelectOutput.png)
 
 4- Click the **Generate Output** button in the lower right part of the window.
 
 5- You can see the generated code in the tab for the language selected, in the Output lateral tab:
 
-![Generated code]({{site.baseurl}}/images/2020-02-15-Generating-an-API-client-with-NSwag-Studio/GeneratedCode.png)
+   ![Generated code]({{site.baseurl}}/images/2020-02-15-Generating-an-API-client-with-NSwag-Studio/GeneratedCode.png)
  
 6- You can get the code in files in a path that you specify. For that you need to set the path for the generated code (see the section Tweaking the settings below) and then click the button **Generate files**.
 
@@ -89,6 +89,3 @@ If you modify the generated code directly, you are depriving yourself of the pos
 ## Best practices in the generated code:
 
 The generated code follows several best practices that we like. You can read about them in a future entry.
-
-
-
