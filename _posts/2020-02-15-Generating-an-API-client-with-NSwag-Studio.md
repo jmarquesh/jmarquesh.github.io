@@ -33,6 +33,7 @@ This is how NSwag Studio looks when you open it:
 To quickly generate some code:
 
 1- Select the runtime that you want to use:
+
 ![Select runtime]({{site.baseurl}}/images/2020-02-15-Generating-an-API-client-with-NSwag-Studio/SelectRuntime.png)
 
 2- Paste the URL of the specification for the API that you will consume and click the button **Create local Copy**:
