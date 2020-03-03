@@ -62,7 +62,7 @@ These are some of the settings that I have modified:
 
 - **Generate contracts output:** Check this to get the contracts generated in a separated file.
 
-- **Contracts namespace:-- Use this to specify the namespace that your contracts should use.
+- **Contracts namespace:** Use this to specify the namespace that your contracts should use.
 
 - **Use the base URL for the request:** This is checked by default, but we unchecked it because we want to set the base URL in the Startup file of our app (more on that below)
 
